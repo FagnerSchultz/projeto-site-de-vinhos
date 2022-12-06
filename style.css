@@ -1,0 +1,57 @@
+body {
+    background-color: #000000;
+    width: 100%;
+}
+
+.container_desconto {
+    background-color: rgb(170, 2, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+.desconto {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.imagem_inicio {
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    margin: 30px 0 0 50px;
+    width: 20%;
+}
+
+.lista_nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0 0 300px;
+}
+
+.botao_texto {
+    font-size: 20px;
+    font-family: Helvetica;
+    background-color: transparent; 
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.botao_texto:hover {
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+h2 {
+    color: white;
+    position: relative;
+}
